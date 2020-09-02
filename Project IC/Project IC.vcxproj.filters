@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Project IC">
+      <UniqueIdentifier>{4f8c0a95-b974-4fc2-813c-19a5856c0e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Utils">
+      <UniqueIdentifier>{8b19a537-c793-4588-88c1-2b124f6a50b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Utils\Math">
+      <UniqueIdentifier>{18096872-adff-405a-b704-bb16b2cd7fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Utils\Pattern">
+      <UniqueIdentifier>{e05b12c4-ab97-4be6-a78a-70c888442ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Utils\VMT">
+      <UniqueIdentifier>{3f561791-0b44-40af-96f0-4cb88aa41bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Utils\Color">
+      <UniqueIdentifier>{1d055ff2-82cc-4b7d-86a3-45783fd71299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Utils\Interface">
+      <UniqueIdentifier>{70aa6ff8-0164-4301-8a41-fe75416111a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK">
+      <UniqueIdentifier>{c6d22ca4-93bf-476a-bfb3-c7ca0cc7c8a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Includes">
+      <UniqueIdentifier>{ec43fdba-c24b-4b03-833d-776a4ae9ff9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Utils\VFunc">
+      <UniqueIdentifier>{307104b1-0436-45c8-b6e2-1608e6873200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces">
+      <UniqueIdentifier>{97ad16d2-f8de-49a5-afee-5604264676c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\EngineClient">
+      <UniqueIdentifier>{3a264d4a-e59f-4db3-8c3f-be4b33ffba4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\BaseClientDLL">
+      <UniqueIdentifier>{a4ec09cd-5430-43f8-be12-71ec6f9dcbbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\ClientDLLSharedAppSystems">
+      <UniqueIdentifier>{641a6ebe-ec0b-43be-a603-64f4423d5faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\ClientModeShared">
+      <UniqueIdentifier>{34954c0b-5735-41aa-92cf-c757f4a70996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\Surface">
+      <UniqueIdentifier>{4f85c205-d8a9-4481-b5d6-46016862d4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\Panel">
+      <UniqueIdentifier>{c3b7b4fa-a101-4a20-9645-0a07cfcf1bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\GlobalVarsBase">
+      <UniqueIdentifier>{5286f741-fbbe-42ba-a874-186705b71be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\ClientEntityList">
+      <UniqueIdentifier>{37b8ab61-30ab-46f9-9bfc-2ecf913b2718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\ModelInfo">
+      <UniqueIdentifier>{4023b330-e2e0-4ba1-8af7-0ed36fcd9e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\EngineTrace">
+      <UniqueIdentifier>{0115f5a4-a162-4499-835e-c8b499014c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\GameMovement">
+      <UniqueIdentifier>{5bf83f72-ce05-413e-9b48-cc747dfea930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\MoveHelper">
+      <UniqueIdentifier>{0862d0e4-848f-43fd-8ef9-0e02bdbb0c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\Prediction">
+      <UniqueIdentifier>{fe6a8cce-18ac-4296-a328-003467a941bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\ConVar">
+      <UniqueIdentifier>{bcabdcd2-b9f6-4104-9017-1302772aa0c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Hooks">
+      <UniqueIdentifier>{7f832e95-e88e-4221-97f4-7615f1338ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Hooks\ClientHook">
+      <UniqueIdentifier>{4842393e-86e0-4c22-8f2d-2ab7c90bff0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\NetVars">
+      <UniqueIdentifier>{ecf614f6-fe20-4842-917c-bc0cb77dad16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Hooks\ClientModeHook">
+      <UniqueIdentifier>{c016d03d-eda7-4b2d-9734-9301f61daec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Hooks\PanelHook">
+      <UniqueIdentifier>{25e4f15d-4db3-4bb0-93c2-9181218e22e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Hooks\SurfaceHook">
+      <UniqueIdentifier>{44efbd77-5a64-41d8-b613-a832ef9e2478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Hooks\PredictionHook">
+      <UniqueIdentifier>{319cd777-b651-4983-b768-1da0f6092655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Main">
+      <UniqueIdentifier>{788f9a86-263e-4bf5-b8a2-6317db533511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Main\BaseEntity">
+      <UniqueIdentifier>{2d57794f-e7db-4429-b0a8-7aa7fdccd910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Main\BaseCombatWeapon">
+      <UniqueIdentifier>{5231b8cd-5abc-446a-b06a-cea2b0797168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Main\BaseObject">
+      <UniqueIdentifier>{26a81639-7661-4e4e-9976-cffdb90a97fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Main\DrawUtils">
+      <UniqueIdentifier>{ffde75ce-3cd0-4c1e-8875-b978bf0e3860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\EngineVGui">
+      <UniqueIdentifier>{69f26171-46df-47c9-9ee1-30c61063b5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Hooks\EngineVGuiHook">
+      <UniqueIdentifier>{4b43d733-3a91-4fd6-9a26-48f865bb4acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Main\EntityCache">
+      <UniqueIdentifier>{99e1a08b-f664-442a-9cbe-b02f34daaaab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features">
+      <UniqueIdentifier>{609b8292-fad0-4eaf-919f-f3de78e1aa9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features\Aimbot">
+      <UniqueIdentifier>{e340280b-2a0b-4016-ad4c-961fb8b42bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Main\VisCheck">
+      <UniqueIdentifier>{de15eccc-a5b2-4ba4-825a-fd26eff1cbb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features\Prediction">
+      <UniqueIdentifier>{5b78800b-c1c7-4a83-94be-57c69eced6ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features\Visuals">
+      <UniqueIdentifier>{a7923413-4113-442e-829a-1c88b2f7863e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features\Visuals\ESP">
+      <UniqueIdentifier>{c047fbf4-6ba8-4d7d-8f7e-33e9d4ad4a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Main\GlobalInfo">
+      <UniqueIdentifier>{c5741797-b25f-4fca-9284-1d43e23ce683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features\Misc">
+      <UniqueIdentifier>{d0095d93-b717-434e-b6a6-8a58dd341aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features\Menu">
+      <UniqueIdentifier>{8d0ac0ec-c98e-4758-b93d-2acbec106361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Utils\Hash">
+      <UniqueIdentifier>{2662ea95-8dc1-470c-83d4-ed1111e12794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features\TriggerBot">
+      <UniqueIdentifier>{7fd3a4d3-4fea-434b-b2a1-e98614206c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features\TriggerBot\TriggerShoot">
+      <UniqueIdentifier>{0e805b60-7b57-4a7a-875d-560a907da36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features\TriggerBot\TriggerStab">
+      <UniqueIdentifier>{1587e25f-e4e1-43b2-89c8-a9893a66e700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\NetChannel">
+      <UniqueIdentifier>{714044e3-a6df-489e-9752-294414a13890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Hooks\EngineClientHook">
+      <UniqueIdentifier>{3642cbcf-8e61-40ce-8a11-b5ce79e067df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\Steam">
+      <UniqueIdentifier>{ddf845d8-6875-42d5-b3ac-058091791c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Main\ConVars">
+      <UniqueIdentifier>{d0784cfa-827b-4a83-864c-68bd3701ce0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features\Visuals\SpectatorList">
+      <UniqueIdentifier>{2fdffeb9-0089-4adb-8cbb-c8b527d57040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Main\BaseEntity\AnimState">
+      <UniqueIdentifier>{bcfe6d7c-6976-4821-a11d-e96533e824ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Utils\UtlVector">
+      <UniqueIdentifier>{dee7ddc6-993f-4b01-b809-16fea48c3eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features\Visuals\SpyWarning">
+      <UniqueIdentifier>{fd294674-7532-492d-ab79-bbea832fb92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Hooks\WndProcHook">
+      <UniqueIdentifier>{821a9c36-e049-4d01-a3f5-f9be7707fc2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features\Menu\Input">
+      <UniqueIdentifier>{7bbeeaa2-83ef-41a6-86b3-3a5a171ae76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\DebugOverlay">
+      <UniqueIdentifier>{4145a9c2-6488-4944-a183-3609842a3dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\GameEvent">
+      <UniqueIdentifier>{2349e10c-7cf4-4480-b5d4-ea4aac530adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features\Visuals\Radar">
+      <UniqueIdentifier>{5e60a88a-fe86-45a3-94af-74161b5fdc45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Hooks\ModelRenderHook">
+      <UniqueIdentifier>{68fc77bb-e93e-4c02-8ec4-908552719a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\ModelRender">
+      <UniqueIdentifier>{af0208ee-b3ea-4e8b-a3d3-ed27be61164b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\Features\Visuals\Chams">
+      <UniqueIdentifier>{6a84be82-5aca-4c08-9e2b-63a2cccd3662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\Material">
+      <UniqueIdentifier>{9f2fa81c-baa9-465e-a4c8-59d5c631b6f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\RenderView">
+      <UniqueIdentifier>{4fad18d1-f34e-4618-b854-2ced002e5d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project IC\SDK\Interfaces\ViewRender">
+      <UniqueIdentifier>{2871dea1-59bd-4ed8-a36e-f2219ef170d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Project IC\DLLMain.cpp">
+      <Filter>Project IC</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Utils\Pattern\Pattern.cpp">
+      <Filter>Project IC\Utils\Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Utils\Interface\Interface.cpp">
+      <Filter>Project IC\Utils\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\SDK\Interfaces\ConVar\ConVar.cpp">
+      <Filter>Project IC\SDK\Interfaces\ConVar</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\SDK\Interfaces\Interfaces.cpp">
+      <Filter>Project IC\SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Hooks\ClientHook\ClientHook.cpp">
+      <Filter>Project IC\Hooks\ClientHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\SDK\NetVars\NetVars.cpp">
+      <Filter>Project IC\SDK\NetVars</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Hooks\ClientModeHook\ClientModeHook.cpp">
+      <Filter>Project IC\Hooks\ClientModeHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Hooks\PanelHook\PanelHook.cpp">
+      <Filter>Project IC\Hooks\PanelHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Hooks\SurfaceHook\SurfaceHook.cpp">
+      <Filter>Project IC\Hooks\SurfaceHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Hooks\PredictionHook\PredictionHook.cpp">
+      <Filter>Project IC\Hooks\PredictionHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Hooks\Hooks.cpp">
+      <Filter>Project IC\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\SDK\Main\BaseCombatWeapon\BaseCombatWeapon.cpp">
+      <Filter>Project IC\SDK\Main\BaseCombatWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\SDK\Main\BaseEntity\BaseEntity.cpp">
+      <Filter>Project IC\SDK\Main\BaseEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\SDK\Main\BaseObject\BaseObject.cpp">
+      <Filter>Project IC\SDK\Main\BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\SDK\Main\DrawUtils\DrawUtils.cpp">
+      <Filter>Project IC\SDK\Main\DrawUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Hooks\EngineVGuiHook\EngineVGuiHook.cpp">
+      <Filter>Project IC\Hooks\EngineVGuiHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\SDK\Main\EntityCache\EntityCache.cpp">
+      <Filter>Project IC\SDK\Main\EntityCache</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Features\Aimbot\Aimbot.cpp">
+      <Filter>Project IC\Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\SDK\Main\VisCheck\VisCheck.cpp">
+      <Filter>Project IC\SDK\Main\VisCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Features\Prediction\Prediction.cpp">
+      <Filter>Project IC\Features\Prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\SDK\Includes\MD5.cpp">
+      <Filter>Project IC\SDK\Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Features\Visuals\ESP\ESP.cpp">
+      <Filter>Project IC\Features\Visuals\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Features\Visuals\Visuals.cpp">
+      <Filter>Project IC\Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Features\Misc\Misc.cpp">
+      <Filter>Project IC\Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Features\Menu\Menu.cpp">
+      <Filter>Project IC\Features\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Utils\Hash\Hash.cpp">
+      <Filter>Project IC\Utils\Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\SDK\Interfaces\NetChannel\NetChannel.cpp">
+      <Filter>Project IC\SDK\Interfaces\NetChannel</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Hooks\EngineClientHook\EngineClientHook.cpp">
+      <Filter>Project IC\Hooks\EngineClientHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Features\Triggerbot\TriggerShoot\TriggerShoot.cpp">
+      <Filter>Project IC\Features\TriggerBot\TriggerShoot</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Features\Triggerbot\TriggerBot.cpp">
+      <Filter>Project IC\Features\TriggerBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Features\Triggerbot\TriggerStab\TriggerStab.cpp">
+      <Filter>Project IC\Features\TriggerBot\TriggerStab</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\SDK\Main\ConVars\ConVars.cpp">
+      <Filter>Project IC\SDK\Main\ConVars</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Features\Visuals\SpectatorList\SpectatorList.cpp">
+      <Filter>Project IC\Features\Visuals\SpectatorList</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Features\Visuals\SpyWarning\SpyWarning.cpp">
+      <Filter>Project IC\Features\Visuals\SpyWarning</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Hooks\WndProcHook\WndProcHook.cpp">
+      <Filter>Project IC\Hooks\WndProcHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Features\Menu\Input\Input.cpp">
+      <Filter>Project IC\Features\Menu\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Features\Visuals\Radar\Radar.cpp">
+      <Filter>Project IC\Features\Visuals\Radar</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Hooks\ModelRenderHook\ModelRenderHook.cpp">
+      <Filter>Project IC\Hooks\ModelRenderHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Project IC\Features\Visuals\Chams\Chams.cpp">
+      <Filter>Project IC\Features\Visuals\Chams</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Project IC\Utils\Math\Math.h">
+      <Filter>Project IC\Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Utils\Pattern\Pattern.h">
+      <Filter>Project IC\Utils\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Utils\VMT\VMT.h">
+      <Filter>Project IC\Utils\VMT</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Utils\Color\Color.h">
+      <Filter>Project IC\Utils\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Utils\Interface\Interface.h">
+      <Filter>Project IC\Utils\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Utils\Utils.h">
+      <Filter>Project IC\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Includes\Classes.h">
+      <Filter>Project IC\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Includes\Const.h">
+      <Filter>Project IC\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Includes\Enums.h">
+      <Filter>Project IC\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Includes\Includes.h">
+      <Filter>Project IC\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Includes\Structs.h">
+      <Filter>Project IC\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Utils\VFunc\VFunc.h">
+      <Filter>Project IC\Utils\VFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\EngineClient\EngineClient.h">
+      <Filter>Project IC\SDK\Interfaces\EngineClient</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Includes\dt_common.h">
+      <Filter>Project IC\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Includes\dt_recv.h">
+      <Filter>Project IC\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\BaseClientDLL\BaseClientDLL.h">
+      <Filter>Project IC\SDK\Interfaces\BaseClientDLL</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\ClientDLLSharedAppSystems\ClientDLLSharedAppSystems.h">
+      <Filter>Project IC\SDK\Interfaces\ClientDLLSharedAppSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\ClientModeShared\ClientModeShared.h">
+      <Filter>Project IC\SDK\Interfaces\ClientModeShared</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\Surface\Surface.h">
+      <Filter>Project IC\SDK\Interfaces\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\Panel\Panel.h">
+      <Filter>Project IC\SDK\Interfaces\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\GlobalVarsBase\GlobalVarsBase.h">
+      <Filter>Project IC\SDK\Interfaces\GlobalVarsBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\ClientEntityList\ClientEntityList.h">
+      <Filter>Project IC\SDK\Interfaces\ClientEntityList</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\ModelInfo\ModelInfo.h">
+      <Filter>Project IC\SDK\Interfaces\ModelInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\EngineTrace\EngineTrace.h">
+      <Filter>Project IC\SDK\Interfaces\EngineTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\GameMovement\GameMovement.h">
+      <Filter>Project IC\SDK\Interfaces\GameMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\MoveHelper\MoveHelper.h">
+      <Filter>Project IC\SDK\Interfaces\MoveHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\Prediction\Prediction.h">
+      <Filter>Project IC\SDK\Interfaces\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\ConVar\ConVar.h">
+      <Filter>Project IC\SDK\Interfaces\ConVar</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\Interfaces.h">
+      <Filter>Project IC\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Hooks\ClientHook\ClientHook.h">
+      <Filter>Project IC\Hooks\ClientHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\NetVars\NetVars.h">
+      <Filter>Project IC\SDK\NetVars</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\SDK.h">
+      <Filter>Project IC\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Hooks\ClientModeHook\ClientModeHook.h">
+      <Filter>Project IC\Hooks\ClientModeHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Hooks\PanelHook\PanelHook.h">
+      <Filter>Project IC\Hooks\PanelHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Hooks\SurfaceHook\SurfaceHook.h">
+      <Filter>Project IC\Hooks\SurfaceHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Hooks\PredictionHook\PredictionHook.h">
+      <Filter>Project IC\Hooks\PredictionHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Hooks\Hooks.h">
+      <Filter>Project IC\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Main\BaseCombatWeapon\BaseCombatWeapon.h">
+      <Filter>Project IC\SDK\Main\BaseCombatWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Main\BaseEntity\BaseEntity.h">
+      <Filter>Project IC\SDK\Main\BaseEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Main\BaseObject\BaseObject.h">
+      <Filter>Project IC\SDK\Main\BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Main\DrawUtils\DrawUtils.h">
+      <Filter>Project IC\SDK\Main\DrawUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\EngineVGui\EngineVGui.h">
+      <Filter>Project IC\SDK\Interfaces\EngineVGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Hooks\EngineVGuiHook\EngineVGuiHook.h">
+      <Filter>Project IC\Hooks\EngineVGuiHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Main\EntityCache\EntityCache.h">
+      <Filter>Project IC\SDK\Main\EntityCache</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Features\Aimbot\Aimbot.h">
+      <Filter>Project IC\Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Main\VisCheck\VisCheck.h">
+      <Filter>Project IC\SDK\Main\VisCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Features\Prediction\Prediction.h">
+      <Filter>Project IC\Features\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Includes\MD5.h">
+      <Filter>Project IC\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Features\Visuals\ESP\ESP.h">
+      <Filter>Project IC\Features\Visuals\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Includes\icons.h">
+      <Filter>Project IC\SDK\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Features\Visuals\Visuals.h">
+      <Filter>Project IC\Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Main\GlobalInfo\GlobalInfo.h">
+      <Filter>Project IC\SDK\Main\GlobalInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Features\Misc\Misc.h">
+      <Filter>Project IC\Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Features\Menu\Menu.h">
+      <Filter>Project IC\Features\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Utils\Hash\Hash.h">
+      <Filter>Project IC\Utils\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\NetChannel\NetChannel.h">
+      <Filter>Project IC\SDK\Interfaces\NetChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Hooks\EngineClientHook\EngineClientHook.h">
+      <Filter>Project IC\Hooks\EngineClientHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\Steam\SteamTypes.h">
+      <Filter>Project IC\SDK\Interfaces\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\Steam\Steamworks.h">
+      <Filter>Project IC\SDK\Interfaces\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Features\Triggerbot\TriggerShoot\TriggerShoot.h">
+      <Filter>Project IC\Features\TriggerBot\TriggerShoot</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Features\Triggerbot\TriggerBot.h">
+      <Filter>Project IC\Features\TriggerBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Features\Triggerbot\TriggerStab\TriggerStab.h">
+      <Filter>Project IC\Features\TriggerBot\TriggerStab</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Main\ConVars\ConVars.h">
+      <Filter>Project IC\SDK\Main\ConVars</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Features\Visuals\SpectatorList\SpectatorList.h">
+      <Filter>Project IC\Features\Visuals\SpectatorList</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Main\BaseEntity\AnimState\Activity.h">
+      <Filter>Project IC\SDK\Main\BaseEntity\AnimState</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Main\BaseEntity\AnimState\MultiPlayerAnimState.h">
+      <Filter>Project IC\SDK\Main\BaseEntity\AnimState</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Main\BaseEntity\AnimState\BaseAnimatingOverlay.h">
+      <Filter>Project IC\SDK\Main\BaseEntity\AnimState</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Utils\UtlVector\UtlVector.h">
+      <Filter>Project IC\Utils\UtlVector</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Main\BaseEntity\AnimState\TFPlayerAnimState.h">
+      <Filter>Project IC\SDK\Main\BaseEntity\AnimState</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Features\Visuals\SpyWarning\SpyWarning.h">
+      <Filter>Project IC\Features\Visuals\SpyWarning</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Hooks\WndProcHook\WndProcHook.h">
+      <Filter>Project IC\Hooks\WndProcHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Features\Menu\Input\Input.h">
+      <Filter>Project IC\Features\Menu\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\DebugOverlay\DebugOverlay.h">
+      <Filter>Project IC\SDK\Interfaces\DebugOverlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\GameEvent\GameEvent.h">
+      <Filter>Project IC\SDK\Interfaces\GameEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Features\Visuals\Radar\Radar.h">
+      <Filter>Project IC\Features\Visuals\Radar</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Hooks\ModelRenderHook\ModelRenderHook.h">
+      <Filter>Project IC\Hooks\ModelRenderHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\Material\Material.h">
+      <Filter>Project IC\SDK\Interfaces\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\ModelRender\ModelRender.h">
+      <Filter>Project IC\SDK\Interfaces\ModelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\Features\Visuals\Chams\Chams.h">
+      <Filter>Project IC\Features\Visuals\Chams</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\RenderView\RenderView.h">
+      <Filter>Project IC\SDK\Interfaces\RenderView</Filter>
+    </ClInclude>
+    <ClInclude Include="Project IC\SDK\Interfaces\ViewRender\ViewRender.h">
+      <Filter>Project IC\SDK\Interfaces\ViewRender</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
